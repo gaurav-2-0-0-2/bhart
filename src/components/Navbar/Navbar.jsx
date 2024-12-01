@@ -6,7 +6,9 @@ export default function Navbar() {
       <a href={"/"}>
         <img width='100' height='100' src={'/logo.svg'} alt={'logo'}/>
       </a> 
-      <FaGithub size={30}/>
+      <a href={"https://github.com/gaurav-2-0-0-2/bhart"}>
+        <FaGithub size={30}/>
+      </a> 
     </div>
   );
 }
