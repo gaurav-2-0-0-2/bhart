@@ -4,7 +4,7 @@
 
 html,
 body {
-  background-color: #FDFBDD;
+  background-color: #EEECEB;
 }
 
 select {
@@ -17,9 +17,9 @@ select {
     outline: none;
 }
 
-.art-card:hover{
-  background-color: #F9DEC9;
+/*.art-card:hover{
+  background-color: #BBBFFF;
   transition: ease-in-out 250ms;
   scale:1.01;
   border-radius: 10px;
-}
+}*/

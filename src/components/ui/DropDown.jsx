@@ -6,11 +6,11 @@ export default function DropDown({selectedState, handleChange}) {
     <div className="flex flex-col mb-10">
       <select
         className="w-[25rem] m-auto text-lg px-6 py-2 rounded-lg bg-white" onChange={handleChange}
-        value={selectedState}
+        defaultValue={selectedState}
         name="state"
         id="state"
       >
-        <option value="" disabled selected>
+        <option value="" disabled>
           Select State
         </option>
         {Images.map((image, index) => {

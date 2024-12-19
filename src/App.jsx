@@ -3,6 +3,7 @@ import './App.css'
 import ExplorePage from './pages/ExplorePage.jsx'
 import HomePage from './pages/HomePage.jsx'
 import {Routes, Route, useNavigate} from 'react-router'
+import ArtDetails from './components/ExplorePage/ArtDetails'
 
 function SendHome() { 
   const navigate = useNavigate();
@@ -19,6 +20,7 @@ function App() {
         <Route path='/' element={<SendHome/>}></Route> 
         <Route path='/home' element={<HomePage/>}></Route> 
         <Route path='/explore' element={<ExplorePage/>}></Route> 
+        <Route path='/art/:id' element={<ArtDetails/>}></Route> 
       </Routes> 
     </div>
   )

@@ -1,4 +1,4 @@
 # (भ)ART
 
-- Home of Indian Folk Art
+- A Repository of Indian Folk Art
 
